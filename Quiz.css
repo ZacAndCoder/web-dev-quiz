@@ -1,0 +1,96 @@
+@media only screen and (max-width: 575px) {
+  html {
+    font-size: 12px;
+  }
+  button {
+    width: 10rem;
+    height: 5rem;
+  }
+}
+@media only screen and (min-width: 576px) {
+  button {
+    width: 20rem;
+    height: 10rem;
+  }
+}
+html, button {
+  font-family: "Garamond", serif;
+}
+body {
+  text-align: center;
+  background-color: #009999;
+}
+p, button {
+  font-size: 1.5rem;
+}
+button {
+  background-color: #CC7700;
+  color: #F0F0F0;
+  border: 1px solid #121212;
+  margin: 1rem;
+  box-shadow: -5px 2.5px 1px #121212;
+}
+button:hover {
+  box-shadow: -10px 5px 1px #121212;
+  transform: translate(5px, -2.5px);
+  cursor: pointer;
+}
+.question {
+  display: inline-block;
+}
+.q-two, .q-three, .q-four, .q-five {
+  display: none;
+}
+#change-display {
+  display: block;
+}
+#back-button, #next-button {
+  width: auto;
+  height: 3rem;
+  box-shadow: none;
+  transform: none;
+  display: inline;
+}
+#current-question {
+  display: inline;
+}
+.animate-fade-in {
+  animation: fade-in 1s linear;
+  animation-fill-mode: forwards;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.animate-sink-in {
+  animation: sink-in 1s linear;
+  animation-fill-mode: forwards;
+}
+@keyframes sink-in {
+  from {
+    background-color: #CC7700;
+  }
+  to {
+    color: #CC7700;
+    transform: translate(-5px, 2.5px);
+    box-shadow: none;
+  }
+}
+.animate-emerge {
+  animation: emerge 1s linear;
+  animation-fill-mode: forwards;
+}
+@keyframes emerge {
+  from {
+    color: #CC7700;
+    transform: translate(-5px, 2.5px);
+    box-shadow: none;
+  }
+  to {
+    color: #F0F0F0;
+  }
+}
