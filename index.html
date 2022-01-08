@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Web Development Quiz</title>
+  <link rel='stylesheet' href='Quiz.css'>
+</head>
+
+<body>
+  <header>
+    <h1><u>Web Development Quiz</u></h1>
+  </header>
+  <main>
+    <form class='question q-one'>
+      <h2>What is an API?</h2>
+      <button class='answer a-one'>Application Programming Interface</button>
+      <button class='answer a-one'>Automatic Programming Intuition</button>
+      <br>
+      <button class='answer a-one'>Artistic Programming Initiation</button>
+      <button class='answer a-one'>Applied Photographic Interface</button>
+    </form>
+    <form class='question q-two'>
+      <h2>Git is a ___.</h2>
+      <button class='answer a-two'>way of life</button>
+      <button class='answer a-two'>CSS preprocessor</button>
+      <br>
+      <button class='answer a-two'>JavaScript library</button>
+      <button class='answer a-two'>version control system</button>
+    </form>
+    <form class='question q-three'>
+      <h2>A Boolean data type has ___ possible values.</h2>
+      <button class='answer a-three'>2</button>
+      <button class='answer a-three'>3</button>
+      <br>
+      <button class='answer a-three'>7</button>
+      <button class='answer a-three'>404</button>
+    </form>
+    <form class='question q-four'>
+      <h2>What does JSON stand for?</h2>
+      <button class='answer a-four'>JavaScript Ordered Numbers</button>
+      <button class='answer a-four'>JavaScript Optional Notation</button>
+      <br>
+      <button class='answer a-four'>JavaScript Object Notation</button>
+      <button class='answer a-four'>JavaScript Obtuse Naming</button>
+    </form>
+    <form class='question q-five'>
+      <h2>Client-side is to front-end as server-side is to ___.</h2>
+      <button class='answer a-five'>computer science</button>
+      <button class='answer a-five'>back-end</button>
+      <br>
+      <button class='answer a-five'>fun</button>
+      <button class='answer a-five'>memory</button>
+    </form>
+    <div id='results'>
+      <h2>Results</h2>
+      <ol>
+        <li>
+          What is an API?<br>
+          <b>Application Programming Interface</b>
+        </li>
+        <li>
+          Git is a ___.<br>
+          <b>version control system</b>
+        </li>
+        <li>
+          A Boolean data type has ___ possible values.<br>
+          <b>2</b>
+        </li>
+        <li>
+          What does JSON stand for?<br>
+          <b>JavaScript Object Notation</b>
+        </li>
+        <li>
+          Client-side is to front-end as server-side is to ___.<br>
+          <b>back-end</b>
+        </li>
+      </ol>
+      <p>You correctly answered 0 out of 5 questions.</p>
+    </div>
+    <div id='change-display'>
+      <button id='back-button'>
+        <svg id='left-arrow' height='48' width='45'></svg>
+      </button>
+      <p id='current-question'>Question 1 of 5</p>
+      <button id='next-button'>
+        <svg id='right-arrow' height='48' width='45'></svg>
+      </button>
+    </div>
+  </main>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src='Quiz.js'></script>
+</body>
+
+</html>
