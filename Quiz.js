@@ -64,10 +64,10 @@ nextButton.addEventListener("click", function() {
 });
 
 backButton.addEventListener("click", function() {
-  disableButtons();
   if (currentQuestion.innerText == "Question 1 of 5" || currentQuestion.innerText == "Results") {
     return;
   } else {
+    disableButtons();
     //Execute animation and display different question
     let questionNumber = currentQuestion.innerHTML.match(/\d/);
     let animateSinkIn = setTimeout(function() {
