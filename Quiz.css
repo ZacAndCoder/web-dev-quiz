@@ -26,14 +26,14 @@ html, button {
 }
 body {
   text-align: center;
-  background-color: #009999;
+  background-color: #CED6E0;
 }
 h2 {
   height: 3rem;
 }
 ol {
   border: 1px solid #121212;
-  background-color: tan;
+  background-color: #CED6E0;
 }
 li {
   font-size: 1.5rem;
@@ -47,8 +47,8 @@ p {
   display: block;
 }
 .answer {
-  background-color: #CC7700;
-  color: #F0F0F0;
+  background-color: #C7BBBC;
+  color: #121212;
   border: 1px solid #121212;
   margin: 1rem;
   box-shadow: -5px 2.5px 5px #121212;
@@ -82,7 +82,7 @@ p {
 }
 #back-button, #next-button {
   border: none;
-  background-color: #009999;
+  background-color: #CED6E0;
   height: auto;
   width: auto;
 }
@@ -92,7 +92,7 @@ p {
 }
 @keyframes sink-in {
   to {
-    color: #CC7700;
+    color: #C7BBBC;
     transform: translate(-5px, 2.5px);
     box-shadow: none;
   }
@@ -103,7 +103,7 @@ p {
 }
 @keyframes emerge {
   from {
-    color: #CC7700;
+    color: #C7BBBC;
     transform: translate(-5px, 2.5px);
     box-shadow: none;
   }
@@ -114,7 +114,7 @@ p {
 }
 @keyframes body-color {
   to {
-    background-color: #CC7700;
+    background-color: #C7BBBC;
   }
 }
 .animate-finish-quiz {
@@ -124,7 +124,7 @@ p {
 @keyframes finish-quiz {
   to {
     border: none;
-    color: #CC7700;
+    color: #C7BBBC;
     box-shadow: none;
     transform: translate(-5px, 2.5px);
   }
