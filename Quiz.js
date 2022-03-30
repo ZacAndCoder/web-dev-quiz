@@ -99,7 +99,7 @@ var answerResults = document.querySelectorAll("b");
 //Add chosen answer to array
 answers.forEach(item => {
   item.addEventListener("click", function() {
-    item.style.color = "#121212";
+    item.style.textDecoration = "underline";
     if (correctAnswers.includes(item.innerHTML)) {
       numCorrectAnswers++;
       numIncorrectAnswers--;
