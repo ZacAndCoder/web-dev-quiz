@@ -11,7 +11,7 @@ There are five questions related to web development. Each rectangular card conta
 
 ## GIF
 
-![QuizGif](https://user-images.githubusercontent.com/91081344/150692712-776ae1c1-8320-4e8e-b0fb-07c92c960781.gif)
+![QuizGif](https://user-images.githubusercontent.com/91081344/160937467-412bbaa9-282e-49a3-a00d-fbdc7cec733c.gif)
 
 ## Example Code
 
